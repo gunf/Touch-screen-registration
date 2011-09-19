@@ -1,0 +1,438 @@
+body {
+    margin:0px;
+    padding:0px;
+    width:1600px;
+    height:900px;
+    font-family: "Arial";
+}
+
+.stripes {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+}
+
+.left_button {
+    position:absolute;
+    left:180px;
+    top:400px;
+    background-image: url(../img/button.png);
+    width:645px;
+    height:250px;
+    border:none;
+    background-repeat: no-repeat;
+}
+
+.left_button:active{
+    background-image: url(../img/button_down.png);
+}
+
+.right_button {
+    position:absolute;
+    left:820px;
+    top:400px;
+    background-image: url(../img/button.png);
+    width:645px;
+    height:250px;
+    border:none;
+    background-repeat: no-repeat;    
+}
+
+.right_button:active{
+    background-image: url(../img/button_down.png);
+}
+
+.mainbutton h1{
+    font-weight: bold;
+}
+
+.mainbutton h2 {
+    font-weight: normal;
+}
+.welcome {
+    position:absolute;
+    left:180px;
+    top:160px;
+    width:1240px;
+    height:120px;
+    text-align: center;
+    color:#a70000;
+}
+
+.flags {
+    position:absolute;
+    top:60px;
+    left:1370px;
+}
+
+.flags a {
+    text-decoration: none;
+}
+.flags img {
+    opacity:0.3;
+}
+
+.flags .chosen {
+    opacity: 1;
+}
+
+.sponsors_index {
+    position:absolute;
+    left:180px;
+    top:800px;
+    text-decoration: underline;
+}
+
+.sponsors_index img {
+    margin-left:20px;
+    float:right;
+}
+
+.sponsors_index .sponsors {
+    padding: 16px;
+    float:left;
+}
+
+.logos {
+    position:absolute;
+    top:60px;
+    left:60px;
+    width:200px;
+}
+
+.logos img {
+    display:block;
+    width:200px;
+    margin-bottom: 20px;
+}
+
+.barcode .form {
+    text-align: center;
+    position:absolute;
+    left:520px;
+    top:300px;
+    width:700px;
+}
+
+.barcode .form h1 {
+    font-size:30px;
+}
+
+.barcode .form h2 {
+    font-size:18px;
+}
+
+.barcode .form .notice {
+    color:#a70000;    
+}
+
+.barcode .form #notfound {
+    display:none;
+}
+
+.barcode .form .input {
+    border:solid 1px #848484;
+    width:100%;
+    height:60px;
+    border-radius:4px;
+    margin-top:20px;
+    font-size:50px;
+}
+
+.big_button {
+    border:solid 1px silver;
+    margin-top:60px;
+    background-image: url(../img/input_button.png);
+    width:200px;
+    height:60px;
+    background-repeat: no-repeat;
+    font-size:32px;
+    display: inline;
+}
+
+.sponsors {
+    position:absolute;
+    left:80px;
+    top:770px;
+
+}
+
+.sponsors .title {
+    text-decoration: underline;
+    margin-bottom:24px;
+}
+
+#visitor_confirm {
+    display:none;
+}
+
+#visitor_confirm h1 {
+    font-size:52px;
+}
+
+#visitor_confirm h2 {
+    font-size:42px;
+}
+
+#visitor_confirm h3{
+    font-size:32px;
+}
+
+
+#visitor_confirm .big_button {
+    font-size:20px;
+}
+
+.confirm_buttons {
+    width:480px;
+    text-align:center;
+}
+
+.confirm_buttons .big_button {
+    float:left;
+    margin:20px;
+    display:inline;
+}
+
+.register .form {
+    text-align: center;
+    position:absolute;
+    left:300px;
+    top:60px;
+    width:700px;
+}
+
+.input {
+    height:30px;
+    border:solid 1px #848484;
+    width:390px;
+    font-size:18px;
+    clear:right;
+}
+
+.register .form .combobox-button {
+    height:30px;
+    width:30px;
+    font-size: 18px;
+    padding-bottom:0px;
+    margin-left:-30px;
+}
+
+.register .form .autocomplete_host .input {
+    position: relative;
+    top:-6px;
+}
+.register .form .select {
+    height:30px;
+    border:solid 1px #848484;
+    width:390px;
+    font-size:18px;
+    clear:right;
+}
+
+.register .form .item {
+    margin-bottom:10px;
+    text-align:left;
+}
+
+.register .form .item .name {
+    float:left;
+    display:inline-block;
+    width:100px;
+    margin-top:6px;
+}
+
+.register .form .item .value {
+    display:inline;
+    margin-right:20px;
+}
+
+.register .form .item .value .input {
+    width:500px;
+}
+.register .form .group {
+    margin-bottom:40px;
+}
+
+.register .form .mandatory {
+    color:#a70000;
+    clear:right;
+    display:inline-block;
+    clear:right;
+}
+.register .form .error {
+    color:#a70000;
+    clear:both;
+    font-size: 12px;
+}
+
+.register .form .big_button {
+    margin-top:20px;
+}
+
+.register .form h1 {
+    font-size:24px;
+}
+
+
+#keyboard {
+    position:absolute;
+    display:inline;
+}
+
+.form.with_keyboard {
+    top:110px;
+}
+
+.pager {
+    width:1500px;
+    border:solid 1px silver;
+}
+
+.pager .page {
+    float:left; 
+    border-right:solid 1px silver;
+    padding:10px;
+}
+
+.pager .page a {
+    color:black;
+}
+
+.pager .current {
+    background-color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.admin_nest {
+    clear:both;
+    height:820px;
+    overflow: auto;
+}
+
+.admin_nest table {
+    border-collapse: collapse;
+    margin-top:10px;
+    border:solid 1px silver;
+}
+
+.admin_nest th {
+    border:solid 1px silver;
+    padding:6px;
+    background-color: #EFEFEF;
+}
+
+.admin_nest table td {
+    border-bottom: solid 1px silver;
+}
+.admin_nest table tr:nth-child(even){
+    background-color: white
+        ;
+}
+
+.admin_header {
+    cursor: pointer;
+    font-size:20px;
+    text-decoration: underline;
+}
+
+.agree a{
+    text-decoration: underline;
+    text-color:black;
+}
+.agree {
+    position: absolute;
+    width:600px;
+    top:780px;
+    left:1000px;
+    font-size: 22px;
+}
+
+.law {
+    display:none;
+    position:absolute;
+    width:1600px;
+    height:900px;
+    top:0px;
+    left:0px;
+    z-index: 255;
+    background-color: rgba(250, 250, 255, 0.8);
+}
+
+.law .law_text{
+    margin-top:20px;
+    width:80%;
+    height:600px;
+    background-color: white;
+    border:solid 1px darkgrey;
+    overflow:auto;
+    padding:30px;
+    text-align: left;
+}
+
+#agree {
+    width:32px;
+    height:32px;
+    border:solid 1px black;
+}
+
+#kb_mappingselector {
+    display:none;
+}
+
+#kbd_ru {
+  display:none;
+}
+
+#keyboard .my_lang_selector .kb_flags img {
+    width:100%;
+}
+
+#keyboard .my_lang_selector .kb_flags button {
+    width:42px;
+    height:42px;
+    text-align: center;
+    border:none;
+    background-color:none;
+}
+
+#keyboard .my_lang_selector  .kb_flags{
+    position:absolute;
+    right:77px;
+    bottom:15px
+
+}
+.my_lang_selector {
+    float:right;
+}
+
+.ui-autocomplete {
+    max-height: 300px;
+    overflow: auto;
+    /* add padding to account for vertical scrollbar */
+    padding-right: 20px;
+}
+
+.sponsors a {
+    color:black;   
+}
+
+.sponsors_about li {
+    margin-bottom:10px;
+}
+.sponsors_about p {
+    text-indent: 12px;
+    margin-bottom:20px;
+}
+
+.disabled {
+    opacity:0.25;
+}
+
+.submits {
+  padding-left:200px;
+}
+
+.register .form .item .value button {
+    width:500 !important;
+}

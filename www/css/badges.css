@@ -1,0 +1,14 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.paper {
+    width:93mm;
+    height:140mm;
+}
+
+.plastic {
+    width:85.595mm;
+    height:53.975mm;
+}
